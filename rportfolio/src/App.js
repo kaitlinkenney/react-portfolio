@@ -4,6 +4,7 @@ import Footer from './components/Footer/footer';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Home from './pages/home';
+import './index.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {

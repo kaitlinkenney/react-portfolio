@@ -18,7 +18,7 @@ class Projects extends Component {
               <Project
                 id={party.id}
                 key={party.id}
-                title={party.name}
+                title={party.title}
                 projimage={party.projimage}
                 description={party.description}
                 projurl={party.projurl}

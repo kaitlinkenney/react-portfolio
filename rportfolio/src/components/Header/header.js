@@ -1,22 +1,29 @@
 import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
 
-function Header(){
-    return(
-        <header className="header">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <div Name="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div Name="navbar-nav">
-        <a Name="nav-link" aria-current="page" href="/">Home</a>
-        <a Name="nav-link" href="/about">About</a>
-        <a Name="nav-link" href="/projects">Projects</a>
+function Header() {
+  return (
+    <header className="bg-pink-100">
+      <div className="container mx-auto flex justify-between">
+        <nav className="flex">
+          <Link to="/"
+          className="inflex items-center py-6 px-3 nr-4 text-black hover:text-blue-800 text-4xl font-italic"
+            >
+            Home
+          </Link>
+          <Link to="/about"
+          className="inflex items-center py-6 px-3 nr-4 text-black hover:text-blue-800 text-4xl font-italic">
+            About
+          </Link>
+          <Link to="/projects"
+          className="inflex items-center py-6 px-3 nr-4 text-black hover:text-blue-800 text-4xl font-italic">
+            Projects
+          </Link>
+        </nav>
       </div>
-    </div>
-  </div>
-</nav>
-        </header>
-    )
+    </header>
+  )
 }
 
 export default Header;
