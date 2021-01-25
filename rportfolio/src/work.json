@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "title": "FiveWire Music",
+      "projimage": "appSC.png",
+      "description": "good music app",
+      "projurl": "https://group5-proj2.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "title": "SmartTrvl",
+        "projimage": "smrttrvl.png",
+        "description": "good travel app",
+        "projurl": "https://kaitlinkenney.github.io/SmartTrvlApp/"
+    },
+    {
+        "id": 3,
+        "title": "Eat-Da-Burger",
+        "projimage": "burgerpic.png",
+        "description": "yum",
+        "projurl": "https://burger-homework123456.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "title": "Employee Tracker",
+        "projimage": "empltrack.png",
+        "description": "sql",
+        "projurl": "https://drive.google.com/file/d/1qsMD6eBLb2imkib5W2iXAwBelavW8h3I/view"
+    },
+    {
+        "id": 5,
+        "title": "Note Taker",
+        "projimage": "notetaker.png",
+        "description": "good note saver",
+        "projurl": "https://drive.google.com/file/d/19t5VRDNJ6MUcKNNwilEpZllrmFm7HVjv/view"
+    },
+    {
+        "id": 6,
+        "title": "Workout Tracker",
+        "projimage": "workouttrack.png",
+        "description": "good for workouts",
+        "projurl": "https://serene-everglades-49385.herokuapp.com/"
+    }
+    
+  ]
+  

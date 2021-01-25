@@ -1,56 +1,33 @@
-import React from 'react';
-import Header from "../components/Header/header";
-import Footer from "../components/Footer/footer";
+import React, { Component } from "react";
 import Project from '../components/Project/project';
-import { useBoolean } from "react-hanger";
+import work from "../work.json";
 
-function Projects (){
-    const showProject = useBoolean(false);
 
-    return(
-        <div>
-            <Header />
-            <div className="container">
-                <h3> My Projects: </h3>
-                <button
-                onClick={() => {
-                    showProject.toggle();}}>
-                    FiveWire Music
-                </button>
-                <button
-                onClick={() => {
-                    showProject.toggle();}}>
-                    Eat-Da-Burger
-                </button>
-                <button
-                onClick={() => {
-                    showProject.toggle();}}>
-                    SmrtTrvl
-                </button>
-                <button
-                onClick={() => {
-                    showProject.toggle();}}>
-                    Employee Tracker
-                </button>
-                <button
-                onClick={() => {
-                    showProject.toggle();}}>
-                    Note Taker
-                </button>
-                <button
-                onClick={() => {
-                    showProject.toggle();}}>
-                    Workout Tracker
-                </button>
-                <div className="response">
-          {showProject.value ? (
-            <Project />
-          ) : null}
-        </div>
-                </div>
-            <Footer />
-        </div>
-    )
+class Projects extends Component {
+
+    state = {
+        work
+    };
+
+
+    render() {
+        return (
+            <div>
+           <h1> My Projects: </h1>
+            {this.state.work.map(party => (
+              <Project
+                id={party.id}
+                key={party.id}
+                title={party.name}
+                projimage={party.projimage}
+                description={party.description}
+                projurl={party.projurl}
+              />
+            ))}
+          </div>
+            
+        )
+    }
 }
 
 export default Projects;
