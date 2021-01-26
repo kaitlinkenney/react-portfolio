@@ -1,13 +1,16 @@
 import React from "react";
-// import Header from "../components/Header/header";
-// import Footer from "../components/Footer/footer";
 import Card from "../components/Card/card";
+import Image from "../components/Image/image";
 
 function Home() {
     return (
         <div>
-            <Card />
-        </div>
+            <Image />
+                <section className="relative flex justify-center pt-24">
+                <Card />
+                </section>
+       
+        </div >
     )
 }
 

@@ -8,16 +8,16 @@ function Header() {
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <Link to="/"
-          className="inflex items-center py-6 px-3 nr-4 text-black hover:text-blue-800 text-4xl font-italic"
+          className="home inflex items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic"
             >
             Home
           </Link>
           <Link to="/about"
-          className="inflex items-center py-6 px-3 nr-4 text-black hover:text-blue-800 text-4xl font-italic">
+          className="inflex items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic">
             About
           </Link>
           <Link to="/projects"
-          className="inflex items-center py-6 px-3 nr-4 text-black hover:text-blue-800 text-4xl font-italic">
+          className="inflex items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic">
             Projects
           </Link>
         </nav>
