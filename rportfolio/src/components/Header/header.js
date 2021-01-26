@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="bg-pink-100">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto">
         <nav className="flex">
           <Link to="/"
-          className="home inflex items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic"
+          className="home items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic"
             >
             Home
           </Link>

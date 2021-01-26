@@ -15,16 +15,70 @@ class Projects extends Component {
             <div>
               <Image />
            <h1 style={{color: "white"}}> My Projects </h1>
-            {this.state.work.map(party => (
+           <div class="row">
+                    <div class="col-sm-4">
               <Project
-                id={party.id}
-                key={party.id}
-                title={party.title}
-                projimage={party.projimage}
-                description={party.description}
-                projurl={party.projurl}
+                id={work[0].id}
+                key={work[0].id}
+                title={work[0].title}
+                projimage={work[0].projimage}
+                description={work[0].description}
+                projurl={work[0].projurl}
               />
-            ))}
+            </div>
+            <div class="col-sm-4">
+            <Project
+                id={work[1].id}
+                key={work[1].id}
+                title={work[1].title}
+                projimage={work[1].projimage}
+                description={work[1].description}
+                projurl={work[1].projurl}
+              />
+              </div>
+              <div class="col-sm-4">
+              <Project
+                id={work[2].id}
+                key={work[2].id}
+                title={work[2].title}
+                projimage={work[2].projimage}
+                description={work[2].description}
+                projurl={work[2].projurl}
+              />
+              </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-4">
+            <Project
+                id={work[3].id}
+                key={work[3].id}
+                title={work[3].title}
+                projimage={work[3].projimage}
+                description={work[3].description}
+                projurl={work[3].projurl}
+              />
+              </div>
+              <div class="col-sm-4">
+            <Project
+                id={work[4].id}
+                key={work[4].id}
+                title={work[4].title}
+                projimage={work[4].projimage}
+                description={work[4].description}
+                projurl={work[4].projurl}
+              />
+              </div>
+              <div class="col-sm-4">
+            <Project
+                id={work[5].id}
+                key={work[5].id}
+                title={work[5].title}
+                projimage={work[5].projimage}
+                description={work[5].description}
+                projurl={work[5].projurl}
+              />
+              </div>
+            </div>
           </div>
             
         )
