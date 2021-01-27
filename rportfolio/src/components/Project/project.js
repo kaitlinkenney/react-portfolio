@@ -6,7 +6,7 @@ function Project(props) {
     return (
         <div>
            
-            <div className="card" style={{width: "70%"}}>
+            <div className="card mb-24 ml-12 mt-12" style={{width: "80%", height: "300px"}}>
             <img src={props.projimage} className="card-img-top"/>
                 <div className="card-body" />
                 <h5 className="card-title">{props.title}</h5>
