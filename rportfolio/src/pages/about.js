@@ -14,7 +14,9 @@ function About() {
                 <h1 className="skills pt-2"> Skills Overview </h1>
                 <p className="pt-3 container">  I am a full stack web developer originally from Cape May, New Jersey.
                 I currently teach ESL (English as a second language) online in my spare time.
-                Previously, I have attended Rutgers University with a major in psychology and Camden County College, where I obtained my degree in Science (Pre-Nursing Specialty).
+                I obtained my certificate in web development from Rutgers University Full Stack Web Development Bootcamp.
+                Previously, I have attended Rutgers University with a major in psychology and Camden County College, 
+                where I obtained my degree in Science (Pre-Nursing Specialty).
                 I have experience in various different customer service positions that I have worked in
                 throughout school. I like to problem solve and I hope to continuously build on my knowledge and
                 skill set. </p>
