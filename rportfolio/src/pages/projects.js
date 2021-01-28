@@ -2,20 +2,26 @@ import React, { Component } from "react";
 import Project from '../components/Project/project';
 import work from "../work.json";
 import Image from "../components/Image/image";
+import "./projects.css";
 
 class Projects extends Component {
 
-    state = {
-        work
-    };
+  state = {
+    work
+  };
 
-    render() {
-        return (
-            <div>
-              <Image />
-           <h1 style={{color: "white"}} className="row justify-center pt-12 text-5xl"> My Projects </h1>
-           <div className="row">
-                    <div className="col-sm-4">
+  render() {
+    return (
+      <div>
+        <div className="container projects">
+          <Image />
+          <div className="container mt-12 pl-36 pr-36 pb-12 bg-gray-300 opacity-85">
+            {/* <div className="container"> */}
+            <h1 className="row justify-center pt-12 text-5xl"> My Projects </h1>
+            {/* </div> */}
+          
+          <div className="row mt-12">
+            <div className="col-sm-4">
               <Project
                 id={work[0].id}
                 key={work[0].id}
@@ -26,7 +32,7 @@ class Projects extends Component {
               />
             </div>
             <div className="col-sm-4">
-            <Project
+              <Project
                 id={work[1].id}
                 key={work[1].id}
                 title={work[1].title}
@@ -34,8 +40,8 @@ class Projects extends Component {
                 description={work[1].description}
                 projurl={work[1].projurl}
               />
-              </div>
-              <div className="col-sm-4">
+            </div>
+            <div className="col-sm-4">
               <Project
                 id={work[2].id}
                 key={work[2].id}
@@ -44,11 +50,11 @@ class Projects extends Component {
                 description={work[2].description}
                 projurl={work[2].projurl}
               />
-              </div>
             </div>
-            <div className="row">
+          </div>
+          <div className="row">
             <div className="col-sm-4">
-            <Project
+              <Project
                 id={work[3].id}
                 key={work[3].id}
                 title={work[3].title}
@@ -56,9 +62,9 @@ class Projects extends Component {
                 description={work[3].description}
                 projurl={work[3].projurl}
               />
-              </div>
-              <div className="col-sm-4">
-            <Project
+            </div>
+            <div className="col-sm-4">
+              <Project
                 id={work[4].id}
                 key={work[4].id}
                 title={work[4].title}
@@ -66,9 +72,9 @@ class Projects extends Component {
                 description={work[4].description}
                 projurl={work[4].projurl}
               />
-              </div>
-              <div className="col-sm-4">
-            <Project
+            </div>
+            <div className="col-sm-4">
+              <Project
                 id={work[5].id}
                 key={work[5].id}
                 title={work[5].title}
@@ -76,12 +82,13 @@ class Projects extends Component {
                 description={work[5].description}
                 projurl={work[5].projurl}
               />
-              </div>
+                </div>
             </div>
           </div>
-            
-        )
-    }
+        </div>
+        </div>
+    )
+  }
 }
 
 export default Projects;
