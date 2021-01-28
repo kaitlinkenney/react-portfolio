@@ -9,7 +9,6 @@ class Projects extends Component {
         work
     };
 
-
     render() {
         return (
             <div>
