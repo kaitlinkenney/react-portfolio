@@ -9,7 +9,7 @@ function Project(props) {
             <div className="card mb-24 ml-12 mt-12" style={{width: "80%", height: "400px"}}>
             <img src={props.projimage} className="card-img-top"/>
                 <div className="card-body" />
-                <h5 className="card-title">{props.title}</h5>
+                <h5 className="card-title mb-96">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
                 <a href={props.projurl} className="btn btn-primary">View App</a>
             </div>
