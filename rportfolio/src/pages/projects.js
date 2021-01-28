@@ -15,10 +15,10 @@ class Projects extends Component {
       <div>
         <div className="container projects">
           <Image />
-          <div className="container mt-12 pl-36 pr-36 pb-12 bg-gray-300 opacity-85">
-            {/* <div className="container"> */}
+          <div className="container mt-12 pl-36 pr-36 pb-12 bg-gray-400 opacity-80">
+            <div className="container mt-6 pb-6 -pt-6 bg-white">
             <h1 className="row justify-center pt-12 text-5xl"> My Projects </h1>
-            {/* </div> */}
+            </div>
           
           <div className="row mt-12">
             <div className="col-sm-4">

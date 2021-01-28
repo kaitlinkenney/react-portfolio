@@ -18,33 +18,21 @@ function Home() {
                     <img style={{ 'height': "500px" }}
                         className="d-block w-50 ml-80 mt-12"
                         src={rose} />
-                    <Carousel.Caption>
-                    
-                    </Carousel.Caption>
                 </Carousel.Item  >
                 <Carousel.Item style={{ 'height': "500px" }}>
                     <img style={{ 'height': "500px" }}
-                        className="d-block w-50 ml-72 mt-12"
+                        className="d-block grads w-50 mt-12"
                         src={grads} />
-                    <Carousel.Caption>
-                      
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item style={{ 'height': "500px" }}>
                     <img style={{ 'height': "600px" }}
                         className="d-block caterp w-45 mt-12"
                         src={caterpillar} />
-                    <Carousel.Caption>
-                      
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item style={{ 'height': "500px" }} >
                     <img style={{ 'height': "500px" }}
-                        className="d-block w-50 ml-72 mt-12"
+                        className="d-block sunset w-50 ml-72 mt-12"
                         src={sunset} />
-                    <Carousel.Caption>
-                       
-                    </Carousel.Caption>
                 </Carousel.Item  >
             </Carousel>
         </div>
