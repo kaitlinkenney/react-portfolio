@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../components/Image/image";
 import rose from "./carouselpics/rose.png";
-import gabby from "./carouselpics/gabbyandme.png";
+import grads from "./carouselpics/grads.jpg";
 import caterpillar from "./carouselpics/caterpillar.jpg";
 import sunset from "./carouselpics/sunset.png";
 import Carousel from 'react-bootstrap/Carousel';
@@ -10,12 +10,12 @@ import "./home.css";
 function Home() {
     return (
         <div>
-            <h1 className="kaitlin" style={{color: "white"}}> <strong>Hi, I'm Kaitlin!</strong>  </h1>
+            <h1 className="kaitlin pt-12 text-5xl" style={{color: "white"}}> Hi, I'm Kaitlin! </h1>
             <Image />
             <Carousel>
                 <Carousel.Item style={{ 'height': "500px" }} >
                     <img style={{ 'height': "500px" }}
-                        className="d-block w-50 ml-72 mt-12"
+                        className="d-block w-50 ml-80 mt-12"
                         src={rose} />
                     <Carousel.Caption>
                     
@@ -24,7 +24,7 @@ function Home() {
                 <Carousel.Item style={{ 'height': "500px" }}>
                     <img style={{ 'height': "500px" }}
                         className="d-block w-50 ml-72 mt-12"
-                        src={gabby} />
+                        src={grads} />
                     <Carousel.Caption>
                       
                     </Carousel.Caption>
