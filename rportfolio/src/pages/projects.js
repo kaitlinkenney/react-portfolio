@@ -14,9 +14,9 @@ class Projects extends Component {
         return (
             <div>
               <Image />
-           <h1 style={{color: "white"}}> My Projects </h1>
-           <div class="row">
-                    <div class="col-sm-4">
+           <h1 style={{color: "white"}} className="row justify-center pt-12 text-5xl"> My Projects </h1>
+           <div className="row">
+                    <div className="col-sm-4">
               <Project
                 id={work[0].id}
                 key={work[0].id}
@@ -26,7 +26,7 @@ class Projects extends Component {
                 projurl={work[0].projurl}
               />
             </div>
-            <div class="col-sm-4">
+            <div className="col-sm-4">
             <Project
                 id={work[1].id}
                 key={work[1].id}
@@ -36,7 +36,7 @@ class Projects extends Component {
                 projurl={work[1].projurl}
               />
               </div>
-              <div class="col-sm-4">
+              <div className="col-sm-4">
               <Project
                 id={work[2].id}
                 key={work[2].id}
@@ -47,8 +47,8 @@ class Projects extends Component {
               />
               </div>
             </div>
-            <div class="row">
-            <div class="col-sm-4">
+            <div className="row">
+            <div className="col-sm-4">
             <Project
                 id={work[3].id}
                 key={work[3].id}
@@ -58,7 +58,7 @@ class Projects extends Component {
                 projurl={work[3].projurl}
               />
               </div>
-              <div class="col-sm-4">
+              <div className="col-sm-4">
             <Project
                 id={work[4].id}
                 key={work[4].id}
@@ -68,7 +68,7 @@ class Projects extends Component {
                 projurl={work[4].projurl}
               />
               </div>
-              <div class="col-sm-4">
+              <div className="col-sm-4">
             <Project
                 id={work[5].id}
                 key={work[5].id}

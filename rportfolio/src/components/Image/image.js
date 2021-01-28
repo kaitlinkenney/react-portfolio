@@ -3,8 +3,10 @@ import "./style.css";
 
 function Image (props) {
     return(
-        <body>
-        </body>
+        <div>
+
+        </div>
+        
             )
 }
 
