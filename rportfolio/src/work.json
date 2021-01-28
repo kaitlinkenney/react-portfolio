@@ -3,14 +3,14 @@
       "id": 1,
       "title": "FiveWire Music",
       "projimage": "appSC.png",
-      "description": "Search songs, create playlists, and view trending songs! You must have a Spotify account to access FiveWire. If you haven't made a FiveWire account, use the guest username:  and password: ",
+      "description": "Create playlists & see trending songs! You must have a Spotify account to access FiveWire. If you don't have a FiveWire account, log into the guest account with the username: guestuser and password: password",
       "projurl": "https://group5-proj2.herokuapp.com/"
     },
     {
         "id": 2,
         "title": "SmartTrvl",
         "projimage": "smrttrvl.png",
-        "description": "Enter your flight origin and destination, and your budget. You'll be given flights within your price range, and COVID statistics for the given country.",
+        "description": "Travel during the COVID-19 pandemic poses extra risk. Enter the airport code for your flight origin and destination, along with your max budget. You'll be given flights within your price range, and COVID statistics for your given country.",
         "projurl": "https://kaitlinkenney.github.io/SmartTrvlApp/"
     },
     {
@@ -31,7 +31,7 @@
         "id": 5,
         "title": "Note Taker",
         "projimage": "notetaker.png",
-        "description": "Write notes and save them for later! Then, delete any notes when finished with them.",
+        "description": "Keep track of your thoughts & tasks either in a work setting, at school, or quickly while traveling. Write notes and save them for later! Then, delete any notes when finished with them.",
         "projurl": "https://drive.google.com/file/d/19t5VRDNJ6MUcKNNwilEpZllrmFm7HVjv/view"
     },
     {

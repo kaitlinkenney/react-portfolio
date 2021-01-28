@@ -13,11 +13,11 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div className="container projects">
+        <div className="container projects mt-12">
           <Image />
-          <div className="container mt-12 pl-36 pr-36 pb-12 bg-gray-400 opacity-80">
-            <div className="container mt-6 pb-6 -pt-6 bg-white">
-            <h1 className="row justify-center pt-12 text-5xl"> My Projects </h1>
+          <div className="container mt-3 pt-2 pr-36 pb-12 bg-gray-400 opacity-80">
+            <div className="container mt-6 pb-6 -pt-6 bg-white shadow-lg">
+            <h1 className="row justify-center pt-6 text-5xl"> My Projects </h1>
             </div>
           
           <div className="row mt-12">

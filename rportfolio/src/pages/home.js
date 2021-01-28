@@ -11,7 +11,7 @@ import "./home.css";
 function Home() {
     return (
         <div>
-            <h1 className="kaitlin pt-12 text-5xl justify-between" style={{color: "white"}}> Hi, I'm Kaitlin! </h1>
+            <h1 className="kaitlin pt-12 text-5xl justify-between shadow-inner" style={{color: "white"}}> Hi,  I'm  Kaitlin! </h1>
             <Image />
             <Carousel>
                 <Carousel.Item style={{ 'height': "500px" }} >
