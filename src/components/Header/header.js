@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="bg-pink-100">
-      <div className="container mx-auto">
-        <nav className="flex">
+    // <header className="bg-pink-100">
+    //   <div className="container mx-auto">
+        <div className="topnav">
           <Link to="/"
-          className="home items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic"
+          className="homelink"
             >
             Home
           </Link>
           <Link to="/about"
-          className="inflex items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic">
+          className="aboutlink">
             About
           </Link>
           <Link to="/projects"
-          className="inflex items-center py-6 px-3 text-black hover:text-blue-800 text-4xl font-italic">
+          className="projectslink">
             Projects
           </Link>
-        </nav>
-      </div>
-    </header>
+        </div>
+    //   </div>
+    // </header>
   )
 }
 

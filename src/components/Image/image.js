@@ -1,13 +1,13 @@
-// import React from 'react';
-// import "./style.css";
+import React from 'react';
+import "./style.css";
 
-// function Image (props) {
-//     return(
-//         <div>
+function Image (props) {
+    return(
+        <div>
 
-//         </div>
+        </div>
         
-//             )
-// }
+            )
+}
 
-// export default Image;
+export default Image;

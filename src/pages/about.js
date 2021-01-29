@@ -1,5 +1,5 @@
 import React from 'react';
-// import Image from "../components/Image/image";
+import Image from "../components/Image/image";
 import { DiStreamline } from "react-icons/di";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { BiBadgeCheck } from "react-icons/bi";
@@ -9,7 +9,7 @@ function About() {
     return (
 
         <div className="container pt-4 pb-12 mt-12 opacity-80 pr-4 pl-4" style={{ background: "#215" }}>
-            {/* <Image /> */}
+            <Image />
             <div className="container shadow-lg bg-gray-200 pt-3 mt-3">
                 <h1 className="skills pt-2"> Skills Overview </h1>
                 <p className="pt-3 container">  I am a full stack web developer originally from Cape May, New Jersey.

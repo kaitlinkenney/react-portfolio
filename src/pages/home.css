@@ -1,16 +1,25 @@
+.rose {
+    margin-left: 26%;
+    margin-top: 20px;
+}
+
 .caterp {
-    margin-left: 39%;
+    margin-top: 20px;
+    margin-left: 36.9%;
 }
 
 .kaitlin {
     text-align: center;
-    /* padding-top: 40px; */
+    font-size: 50px;
+    padding-top: 40px;
 }
 
 .grads {
+    margin-top: 20px;
     margin-left: 26%;
 }
 
 .sunset {
-    margin-left: 26%;
+    margin-top: 20px;
+    margin-left: 27%;
 }

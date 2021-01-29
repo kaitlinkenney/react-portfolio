@@ -1,3 +1,23 @@
-.home {
-    margin-left: 725px;
+.homelink {
+    margin-left: 850px;
+    font-size: 35px;
+    padding-right: 25px;
+    color: black;
+}
+
+.aboutlink {
+    font-size: 35px;
+    padding-right: 25px;
+    color: black;
+}
+
+.projectslink {
+    font-size: 35px;
+    color: black;
+}
+
+.topnav {
+    padding: 20px;
+    background-color: rgb(248, 209, 240);
+    font-style: italic;
 }
