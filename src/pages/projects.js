@@ -15,7 +15,7 @@ class Projects extends Component {
       <div>
         <div className="container projects">
           <Image />
-          <div className="container firstcontainer">
+          <div className="container shadow rounded firstcontainer">
             <div className="container shadow rounded secondcontainer">
             <h1 className="myprojs"> My Projects </h1>
             </div>

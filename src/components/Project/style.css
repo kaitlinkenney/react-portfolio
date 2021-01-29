@@ -1,3 +1,18 @@
-/* .btn {
-    background-color: blueviolet;
-} */
+.card {
+    margin-bottom: 60px;
+    margin-left: 22px;
+    margin-top: 70px;
+}
+
+.card-title {
+    margin-top: -1%;
+}
+
+.card-text {
+    margin-top: -2%;
+    font-size: medium;
+}
+
+.btn {
+    margin-top: -6%;
+}
