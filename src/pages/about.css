@@ -1,7 +1,8 @@
 .resume {
     text-align: center;
     font-size: 20px;
-
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 .skills {
@@ -11,43 +12,58 @@
 
 .containerone {
     padding-top: 3%;
-    padding-bottom: 12%;
-    margin-top: 2%;
+    padding-bottom: 5%;
+    margin-top: 4%;
     opacity: 80%;
     padding-right: 4px;
-    padding-left: 4px;
+    padding-left: 10%;
 }
 
 .containertwo {
-    background-color: gray;
-    padding-top: 1%;
-    margin-top: 3px;
-    box-shadow: 5px 5px 5px rgb(49, 47, 47);
+    background-color: rgb(233, 229, 229);
+    padding-top: 2%;
+    padding-left: 2px;
+    margin-top: 7px;
+    /* box-shadow: 5px 5px 5px rgb(65, 63, 63); */
 }
 
 .containerthree {
-    padding-top: 3px;
+    padding-top: 13px;
 }
 
 .containerfour {
     margin-left: 12px;
-    margin-top: 4px;
+    margin-top: 25px;
     padding-bottom: 3px;
     padding-top: 3px;
-    background-color: gray;
+    background-color: rgb(233, 229, 229);
+    /* box-shadow: 5px 5px 5px rgb(65, 63, 63); */
 }
 
 
 .db {
-    margin-left: auto;
+    margin-left: 220px;
+    margin-top: 11px;
 }
 
 .rows {
-    justify-content: center;
+    text-align: center;
 }
 
 .containerfive {
-    margin-top: 4px;
+    margin-top: 25px;
     padding-top: 3px;
-    background-color: gray;
+    background-color: rgb(233, 229, 229);
+    /* box-shadow: 5px 5px 5px rgb(65, 63, 63); */
+}
+
+.desktop {
+    align-content: center;
+    margin-top: 11px;
+    margin-left: 220px;
+} 
+
+h3 {
+    text-align: center;
+
 }

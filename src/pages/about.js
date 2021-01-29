@@ -8,9 +8,9 @@ import "./about.css";
 function About() {
     return (
 
-        <div className="container containerone" style={{ background: "#215" }}>
+        <div className="container rounded containerone" style={{ background: "#215" }}>
             <Image />
-            <div className=" container containertwo">
+            <div className=" container shadow rounded containertwo">
                 <h1 className="skills"> Skills Overview </h1>
                 <p className="container containerthree">  I am a full stack web developer originally from Cape May, New Jersey.
                 I currently teach ESL (English as a second language) online in my spare time.
@@ -24,7 +24,7 @@ function About() {
                 </p>
             </div>
             <div className="row">
-                <div className="container containerfour" style={{ width: "500px" }}>
+                <div className="container shadow rounded containerfour" style={{ width: "500px" }}>
                     <HiOutlineDesktopComputer className="desktop" style={{ height: 35, width: 35 }} />
                     <div className="rows">
                         <h3> Front End</h3>
@@ -48,7 +48,7 @@ function About() {
                         < BiBadgeCheck style={{ height: 25 }} /> React
                         </div>
                 </div>
-                <div className="container containerfive" style={{ width: "500px" }}>
+                <div className="container shadow rounded containerfive" style={{ width: "500px" }}>
                     <DiStreamline className="db" style={{ height: 35, width: 35 }} />
                     <div className="rows">
                         <h3> Back End</h3>
