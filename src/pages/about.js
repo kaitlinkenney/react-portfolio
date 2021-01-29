@@ -5,6 +5,7 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { BiBadgeCheck } from "react-icons/bi";
 import "./about.css";
 
+//About page
 function About() {
     return (
 

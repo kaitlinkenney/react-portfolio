@@ -2,10 +2,9 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 
+//header will appear on every page with buttons to navigate between pages
 function Header() {
   return (
-    // <header className="bg-pink-100">
-    //   <div className="container mx-auto">
         <div className="topnav">
           <Link to="/"
           className="homelink"
@@ -21,8 +20,6 @@ function Header() {
             Projects
           </Link>
         </div>
-    //   </div>
-    // </header>
   )
 }
 

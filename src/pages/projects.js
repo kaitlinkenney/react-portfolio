@@ -28,6 +28,7 @@ class Projects extends Component {
                 projimage={work[0].projimage}
                 description={work[0].description}
                 projurl={work[0].projurl}
+                giturl={work[0].giturl}
               />
             </div>
             <div className="col-sm-4">
@@ -38,6 +39,7 @@ class Projects extends Component {
                 projimage={work[1].projimage}
                 description={work[1].description}
                 projurl={work[1].projurl}
+                giturl={work[1].giturl}
               />
             </div>
             <div className="col-sm-4">
@@ -48,6 +50,7 @@ class Projects extends Component {
                 projimage={work[2].projimage}
                 description={work[2].description}
                 projurl={work[2].projurl}
+                giturl={work[2].giturl}
               />
             </div>
           </div>
@@ -60,6 +63,7 @@ class Projects extends Component {
                 projimage={work[3].projimage}
                 description={work[3].description}
                 projurl={work[3].projurl}
+                giturl={work[3].giturl}
               />
             </div>
             <div className="col-sm-4">
@@ -70,6 +74,7 @@ class Projects extends Component {
                 projimage={work[4].projimage}
                 description={work[4].description}
                 projurl={work[4].projurl}
+                giturl={work[4].giturl}
               />
             </div>
             <div className="col-sm-4">
@@ -80,6 +85,7 @@ class Projects extends Component {
                 projimage={work[5].projimage}
                 description={work[5].description}
                 projurl={work[5].projurl}
+                giturl={work[5].giturl}
               />
                 </div>
             </div>
