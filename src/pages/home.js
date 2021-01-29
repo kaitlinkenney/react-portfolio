@@ -4,7 +4,6 @@ import rose from "./carouselpics/rose.png";
 import grads from "./carouselpics/grads.jpg";
 import caterpillar from "./carouselpics/caterpillar.jpg";
 import sunset from "./carouselpics/sunset.png";
-import cousins from "./carouselpics/cousins.jpg";
 import Carousel from 'react-bootstrap/Carousel';
 import "./home.css";
 
