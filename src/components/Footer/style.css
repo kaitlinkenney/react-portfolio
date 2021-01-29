@@ -13,4 +13,19 @@
   text-align: center;
 }
 
+.github {
+  /* padding-bottom: -6%; */
+  margin-right: 1.5%;
+}
+
+.linkedin {
+  margin-right: .5%;
+  /* margin-bottom: -1; */
+}
+
+.email {
+  margin-bottom: 100px;
+  margin-right: 90%;
+}
+
 

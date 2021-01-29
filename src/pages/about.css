@@ -6,4 +6,48 @@
 
 .skills {
     text-align: center;
+    padding-top: 2px;
+}
+
+.containerone {
+    padding-top: 3%;
+    padding-bottom: 12%;
+    margin-top: 2%;
+    opacity: 80%;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.containertwo {
+    background-color: gray;
+    padding-top: 1%;
+    margin-top: 3px;
+    box-shadow: 5px 5px 5px rgb(49, 47, 47);
+}
+
+.containerthree {
+    padding-top: 3px;
+}
+
+.containerfour {
+    margin-left: 12px;
+    margin-top: 4px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: gray;
+}
+
+
+.db {
+    margin-left: auto;
+}
+
+.rows {
+    justify-content: center;
+}
+
+.containerfive {
+    margin-top: 4px;
+    padding-top: 3px;
+    background-color: gray;
 }
