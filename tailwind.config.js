@@ -7,6 +7,7 @@ module.exports = {
     './src/pages.home.js',
     './src/pages.projects.js',
     './src/App.js',
+    './src/index.js',
     './public/index.html'
   ],
   darkMode: false, // or 'media' or 'class'
