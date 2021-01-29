@@ -1,9 +1,8 @@
 .footer {
   position: absolute;
-  /* top: 20 !important; */
   left: 0;
   right: 0;
-  padding: 4px;
+  padding: 7px;
   margin-top: 100px;
   background: #B8B8B8;
 
@@ -14,18 +13,16 @@
 }
 
 .github {
-  /* padding-bottom: -6%; */
   margin-right: 1.5%;
 }
 
 .linkedin {
-  margin-right: .5%;
-  /* margin-bottom: -1; */
+  margin-right: .6%;
 }
 
 .email {
-  margin-bottom: 100px;
-  margin-right: 90%;
+  margin-right: .6%;
+
 }
 
 
