@@ -6,7 +6,7 @@ A portfolio created using React.
 
 * Updated web development portfolio with a home page, a page about me, and a projects page featuring 6 total projects. 
 
-* Technologies used: React, Bootstrap, React Icons, and React Router npm packages.
+* Technologies used: React, Bootstrap, React Bootstrap, React Icons, and React Router npm packages.
 
 * Comprised of multiple components that are used multiple times on pages 
 
