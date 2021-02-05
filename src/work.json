@@ -33,11 +33,11 @@
     },
     {
         "id": 5,
-        "title": "Note Taker",
-        "projimage": "notetaker.png",
-        "description": "Keep track of your thoughts & tasks either in a work setting, at school, or quickly while traveling. Write notes and save them for later! Then, delete any notes when finished with them.",
-        "projurl": "https://drive.google.com/file/d/19t5VRDNJ6MUcKNNwilEpZllrmFm7HVjv/view",
-        "giturl": "https://github.com/kaitlinkenney/note-taker"
+        "title": "Google Books Search",
+        "projimage": "googbooks.png",
+        "description": "Search for a book & view results from the Google Books API. View the book on the Google Books website or save it for later. Visit your list of saved books at any time to view or delete books.",
+        "projurl": "https://googlebookskaitlin.herokuapp.com/",
+        "giturl": "https://github.com/kaitlinkenney/google-books"
     },
     {
         "id": 6,
