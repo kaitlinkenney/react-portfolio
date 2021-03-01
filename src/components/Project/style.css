@@ -15,9 +15,18 @@
 
 .btn-primary {
     background-color: rgb(144, 66, 199) !important;
-    margin-left: -10px;
+    /* margin-left: -10px;
     margin-right: -10px;
     padding-right: 2px;
-    padding-left: 2px;
+    padding-left: 2px; */
+}
+
+.one {
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+.two {
+  margin-left: -30px;
 }
 

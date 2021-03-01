@@ -14,10 +14,10 @@ function Project(props) {
                 <div class="container">
                     <div class="row">
                         <div class="col container">
-                        <a href={props.projurl} className="btn btn-primary">View Application</a>
+                        <a href={props.projurl} style={{width: "67px"}} className="btn btn-primary one">Live</a>
                             </div>
                         <div class="col container">
-                        <a href={props.giturl} className="btn btn-primary mb-3">GitHub Repository</a>
+                        <a href={props.giturl} className="btn btn-primary two mb-3">GitHub</a>
                              </div>
                     </div>
                    
